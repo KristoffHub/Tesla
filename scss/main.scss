@@ -1,0 +1,36 @@
+@import "variables";
+@import "mixins";
+
+body{
+  position: relative;
+}
+.navbar-nav{
+  width:100%;
+  a{
+    width: (100%/6);
+    color: $white;
+    text-decoration: none;
+    padding: 12px;
+    display: inline;
+    text-align: center;
+  }
+}
+.banner {
+  float:left;
+  box-sizing: content-box;
+}
+#about, #product, #contact{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+footer{
+  padding: 10px;
+  color: $white;
+}
+#home{
+  position: relative;
+  width: 100%;
+}
+.card{
+  margin: 10px;
+}
